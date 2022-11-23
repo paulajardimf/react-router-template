@@ -1,9 +1,7 @@
+import { Router } from "./routes/Router";
+
 function App() {
-  return (
-    <div>
-      <h1>Aula de React Router</h1>
-    </div>
-  )
+  return <Router />;
 }
 
-export default App
+export default App;
